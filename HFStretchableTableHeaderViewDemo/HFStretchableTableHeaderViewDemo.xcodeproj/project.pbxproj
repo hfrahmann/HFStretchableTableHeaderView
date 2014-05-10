@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B112B87B191EB92D00F95975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B112B87A191EB92D00F95975 /* Foundation.framework */; };
+		B112B87D191EB92D00F95975 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B112B87C191EB92D00F95975 /* CoreGraphics.framework */; };
+		B112B87F191EB92D00F95975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B112B87E191EB92D00F95975 /* UIKit.framework */; };
+		B112B885191EB92D00F95975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B112B883191EB92D00F95975 /* InfoPlist.strings */; };
+		B112B887191EB92D00F95975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B112B886191EB92D00F95975 /* main.m */; };
+		B112B88B191EB92D00F95975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B112B88A191EB92D00F95975 /* AppDelegate.m */; };
+		B112B88E191EB92D00F95975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B112B88C191EB92D00F95975 /* Main.storyboard */; };
+		B112B893191EB92D00F95975 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B112B892191EB92D00F95975 /* Images.xcassets */; };
+		B112B8B5191EBDBF00F95975 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B112B8B4191EBDBF00F95975 /* DemoTableViewController.m */; };
+		B112B8BA191EBFA000F95975 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B112B8B9191EBFA000F95975 /* MapKit.framework */; };
+		B1795A96191EC62500A23BCD /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1795A95191EC62500A23BCD /* HFStretchableTableHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B112B877191EB92D00F95975 /* HFStretchableTableHeaderViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFStretchableTableHeaderViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B112B87A191EB92D00F95975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B112B87C191EB92D00F95975 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B112B87E191EB92D00F95975 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B112B882191EB92D00F95975 /* HFStretchableTableHeaderViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HFStretchableTableHeaderViewDemo-Info.plist"; sourceTree = "<group>"; };
+		B112B884191EB92D00F95975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B112B886191EB92D00F95975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B112B888191EB92D00F95975 /* HFStretchableTableHeaderViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HFStretchableTableHeaderViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B112B889191EB92D00F95975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B112B88A191EB92D00F95975 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B112B88D191EB92D00F95975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B112B892191EB92D00F95975 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B112B899191EB92D00F95975 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B112B8B3191EBDBF00F95975 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		B112B8B4191EBDBF00F95975 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		B112B8B9191EBFA000F95975 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B1795A94191EC62500A23BCD /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
+		B1795A95191EC62500A23BCD /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B112B874191EB92D00F95975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B112B8BA191EBFA000F95975 /* MapKit.framework in Frameworks */,
+				B112B87D191EB92D00F95975 /* CoreGraphics.framework in Frameworks */,
+				B112B87F191EB92D00F95975 /* UIKit.framework in Frameworks */,
+				B112B87B191EB92D00F95975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B112B86E191EB92D00F95975 = {
+			isa = PBXGroup;
+			children = (
+				B112B880191EB92D00F95975 /* HFStretchableTableHeaderViewDemo */,
+				B112B879191EB92D00F95975 /* Frameworks */,
+				B112B878191EB92D00F95975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B112B878191EB92D00F95975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B112B877191EB92D00F95975 /* HFStretchableTableHeaderViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B112B879191EB92D00F95975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B112B8B9191EBFA000F95975 /* MapKit.framework */,
+				B112B87A191EB92D00F95975 /* Foundation.framework */,
+				B112B87C191EB92D00F95975 /* CoreGraphics.framework */,
+				B112B87E191EB92D00F95975 /* UIKit.framework */,
+				B112B899191EB92D00F95975 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B112B880191EB92D00F95975 /* HFStretchableTableHeaderViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B112B8AF191EBC0300F95975 /* HFStretchableTableHeaderView */,
+				B112B889191EB92D00F95975 /* AppDelegate.h */,
+				B112B88A191EB92D00F95975 /* AppDelegate.m */,
+				B112B88C191EB92D00F95975 /* Main.storyboard */,
+				B112B8B3191EBDBF00F95975 /* DemoTableViewController.h */,
+				B112B8B4191EBDBF00F95975 /* DemoTableViewController.m */,
+				B112B892191EB92D00F95975 /* Images.xcassets */,
+				B112B881191EB92D00F95975 /* Supporting Files */,
+			);
+			path = HFStretchableTableHeaderViewDemo;
+			sourceTree = "<group>";
+		};
+		B112B881191EB92D00F95975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B112B882191EB92D00F95975 /* HFStretchableTableHeaderViewDemo-Info.plist */,
+				B112B883191EB92D00F95975 /* InfoPlist.strings */,
+				B112B886191EB92D00F95975 /* main.m */,
+				B112B888191EB92D00F95975 /* HFStretchableTableHeaderViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B112B8AF191EBC0300F95975 /* HFStretchableTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				B1795A94191EC62500A23BCD /* HFStretchableTableHeaderView.h */,
+				B1795A95191EC62500A23BCD /* HFStretchableTableHeaderView.m */,
+			);
+			name = HFStretchableTableHeaderView;
+			path = ../../HFStretchableTableHeaderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B112B876191EB92D00F95975 /* HFStretchableTableHeaderViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B112B8A9191EB92D00F95975 /* Build configuration list for PBXNativeTarget "HFStretchableTableHeaderViewDemo" */;
+			buildPhases = (
+				B112B873191EB92D00F95975 /* Sources */,
+				B112B874191EB92D00F95975 /* Frameworks */,
+				B112B875191EB92D00F95975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFStretchableTableHeaderViewDemo;
+			productName = StretchableTableHeaderViewDemo;
+			productReference = B112B877191EB92D00F95975 /* HFStretchableTableHeaderViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B112B86F191EB92D00F95975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hendrik Frahmann";
+			};
+			buildConfigurationList = B112B872191EB92D00F95975 /* Build configuration list for PBXProject "HFStretchableTableHeaderViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B112B86E191EB92D00F95975;
+			productRefGroup = B112B878191EB92D00F95975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B112B876191EB92D00F95975 /* HFStretchableTableHeaderViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B112B875191EB92D00F95975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B112B893191EB92D00F95975 /* Images.xcassets in Resources */,
+				B112B885191EB92D00F95975 /* InfoPlist.strings in Resources */,
+				B112B88E191EB92D00F95975 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B112B873191EB92D00F95975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1795A96191EC62500A23BCD /* HFStretchableTableHeaderView.m in Sources */,
+				B112B88B191EB92D00F95975 /* AppDelegate.m in Sources */,
+				B112B887191EB92D00F95975 /* main.m in Sources */,
+				B112B8B5191EBDBF00F95975 /* DemoTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B112B883191EB92D00F95975 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B112B884191EB92D00F95975 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B112B88C191EB92D00F95975 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B112B88D191EB92D00F95975 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B112B8A7191EB92D00F95975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B112B8A8191EB92D00F95975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B112B8AA191EB92D00F95975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HFStretchableTableHeaderViewDemo/HFStretchableTableHeaderViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "HFStretchableTableHeaderViewDemo/HFStretchableTableHeaderViewDemo-Info.plist";
+				PRODUCT_NAME = HFStretchableTableHeaderViewDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B112B8AB191EB92D00F95975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HFStretchableTableHeaderViewDemo/HFStretchableTableHeaderViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "HFStretchableTableHeaderViewDemo/HFStretchableTableHeaderViewDemo-Info.plist";
+				PRODUCT_NAME = HFStretchableTableHeaderViewDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B112B872191EB92D00F95975 /* Build configuration list for PBXProject "HFStretchableTableHeaderViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B112B8A7191EB92D00F95975 /* Debug */,
+				B112B8A8191EB92D00F95975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B112B8A9191EB92D00F95975 /* Build configuration list for PBXNativeTarget "HFStretchableTableHeaderViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B112B8AA191EB92D00F95975 /* Debug */,
+				B112B8AB191EB92D00F95975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B112B86F191EB92D00F95975 /* Project object */;
+}

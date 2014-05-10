@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E2B2DAC-3796-482B-ABCD-172F9ECFEC6C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HFStretchableTableHeaderViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E88E2F34-CB26-447D-8898-119F93C912CD</key>
+		<string>https://github.com/hfrahmann/StretchableTableHeaderView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HFStretchableTableHeaderViewDemo/HFStretchableTableHeaderViewDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E88E2F34-CB26-447D-8898-119F93C912CD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hfrahmann/StretchableTableHeaderView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E88E2F34-CB26-447D-8898-119F93C912CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E88E2F34-CB26-447D-8898-119F93C912CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StretchableTableHeaderView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
